@@ -1,0 +1,195 @@
+nav {
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    background: rgb(222, 14, 14);
+    background: linear-gradient(90deg, rgba(222, 14, 14, 1) 46%, rgba(255, 255, 255, 1) 47%);
+
+}
+
+body {
+    background-color: rgb(204, 68, 68);
+
+}
+
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between
+}
+
+footer {
+    background-color: #ff0202;
+    color: #ffffff;
+    width: 100%;
+    bottom: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+a {
+    margin: 0% 2rem;
+}
+
+
+.card {
+    border: 10px solid #fffefe;
+    border-radius: 5px;
+    padding: 10px;
+    width: 250px;
+    border-color: #ffffff;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5rem;
+}
+
+.card h3 {
+    font-size: 22px;
+    margin-top: 5 rem;
+}
+
+.card h3 {
+    border: 2px solid rgb(255, 0, 0);
+
+    /* Cambiar el color del borde del h3 */
+
+}
+
+.card p {
+    font-size: 16px;
+    margin-top: 5px;
+    text-decoration: #ff0f0f;
+}
+
+.card button {
+    background-color: #7facff;
+    color: #ff1616;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: #0069d9;
+}
+
+.logo-de-river {
+    width: 5rem;
+    margin: 0%;
+    padding: 0%;
+    justify-content: left;
+}
+
+.my-element {
+    display: inline-block;
+    margin: 0 0.5rem;
+
+    animation: bounce;
+    /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 10s;
+    /* don't forget to set a duration! */
+}
+
+.menu {
+    background-color: #640606;
+    text-align: center;
+}
+
+.menu-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-list li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.menu-list li a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+}
+
+
+.menu {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.menu-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-list li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.menu-list li a {
+    display: flex;
+    text-decoration: none;
+    color: #a14f4f;
+    padding: 10px;
+}
+
+.header {
+    display: flex;
+}
+
+
+body {
+    background-color: #467fb8;
+}
+
+
+nav {
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    background: rgb(250, 8, 8);
+    background: linear-gradient(90deg, rgba(222, 14, 14, 1) 46%, rgba(255, 255, 255, 1) 50%);
+
+
+    .container {
+        display: flex;
+        justify-content: left;
+        /* Alineación horizontal centrada */
+        align-items: left;
+        /* Alineación vertical centrada */
+    }
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+            /* Cambio a una disposición horizontal en pantallas más pequeñas */
+    }
+}
+
+ul {
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
+}
+
+footer {
+    background-color: #ff0202;
+    color: #ffffff;
+    width: 100%;
+    margin: 3rem;
+    bottom: 0;
+    padding: 5px;
+    text-align: center;
+
+
+
+}
